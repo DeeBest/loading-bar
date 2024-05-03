@@ -12,7 +12,7 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background: linear-gradient(to right left, black, white);
+  background: linear-gradient(to right top, black, white);
   color: cadetblue;
 }
 header,
@@ -74,15 +74,20 @@ footer .contact-icons {
 
 #container {
   display: flex;
-  flex-direction: column;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
   width: 400px;
-  padding: 3px;
-  box-shadow: 4px 2px 4px rgba(0, 0, 0, 0.5);
+  border: 2px solid tomato;
   gap: 15px;
   border-radius: 10px;
+  overflow: hidden;
+}
+#bar {
+  padding: 5px;
+  background-color: greenyellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 0%;
 }
 
 @media screen and (max-width: 450px) {
