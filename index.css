@@ -75,7 +75,7 @@ footer .contact-icons {
 #container {
   display: flex;
   width: 400px;
-  border: 2px solid tomato;
+  border: 2px solid cadetblue;
   gap: 15px;
   border-radius: 10px;
   overflow: hidden;
